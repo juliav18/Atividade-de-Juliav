@@ -1,0 +1,28 @@
+body {
+  display: block;
+}
+
+#Logo{
+    padding: 30%;
+    margin: auto;
+    max-width: 457%;
+}
+section > nav {
+
+} 
+::marker {
+    color: brown;
+}
+h2{
+    padding: 9px;
+    font-family: 'SILKscreen', cursive;
+}
+.conteudo-da-loja{
+        align-items: center;
+        margin: 50px;
+        padding: auto;
+        max-inline-size: 50%;
+}
+.container img {
+    height: 10px;
+}
