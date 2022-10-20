@@ -1,7 +1,21 @@
 body {
-  display: block;
+     opacity: 5.0;
+  background: var(--bg);
+  color: var(--fontColor);
+  font-family: Arial, Helvetica, sans-serif;
 }
-
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+li {
+    list-style: circle;
+}
+.list {
+    list-style: square;
+}
+#msg {
+    font-family: monospace;
+}
 #Logo{
     padding: 30%;
     margin: auto;
@@ -14,15 +28,30 @@ section > nav {
     color: brown;
 }
 h2{
-    padding: 9px;
+    padding: 5px;
     font-family: 'SILKscreen', cursive;
 }
 .conteudo-da-loja{
         align-items: center;
-        margin: 50px;
+        margin: 20px;
         padding: auto;
         max-inline-size: 50%;
 }
-.container img {
-    height: 10px;
-}
+ img {
+    width: 250px;
+ }
+ .light-theme {
+   --bg: var(--green);
+   --fontColor: var(--black);
+ }
+ .dark-theme {
+   --bg: var(--black);
+   --fontColor: var(--green);
+   background-color:palegreen;
+ }
+ ::root{
+   --green: #00FF00;
+   --white: #FFFFFF;
+   --black: #000000;
+ }
+ 
