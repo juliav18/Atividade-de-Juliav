@@ -43,15 +43,33 @@ h2{
  .light-theme {
    --bg: var(--green);
    --fontColor: var(--black);
+   --btnBg: var(--black);
+   --btnFontColor: var(--white);
  }
  .dark-theme {
    --bg: var(--black);
    --fontColor: var(--green);
    background-color:palegreen;
+   --btn: var(--white);
+   --btnFontColor: var(--Black);
  }
  ::root{
    --green: #00FF00;
    --white: #FFFFFF;
    --black: #000000;
  }
- 
+ .btn {
+  color: var(--btnFontColor);
+  background-color: var(--btnBg);
+ }
+ .btn {
+   position:unset;
+   top: 30px;
+   left: 1000px;
+   height: 50px;
+   width: 100px;
+   border-radius: 100%;
+   border:animation-name ;
+   color: var(--btnFontColor);
+   background-color: var(--btnBg);
+ }
